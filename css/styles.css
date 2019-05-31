@@ -44,13 +44,27 @@ body {
 #indexTopJumbotron {
   text-align: center;
 }
- #topPicture {
+ #indexTopPicture {
   width: 100%;
   height: ;
 }
 
-#topPictureAbout {
+#aboutYoungerDaysJumbotron {
+  text-align: center;
+}
+
+#aboutYoungerDaysPicture {
   float: right;
+  width: 300px;
+  height: 250px;
+}
+
+#aboutTwentyJumbotron {
+  text-align: center;
+}
+
+#aboutTwentyPicture {
+  float: left;
   width: 300px;
   height: 250px;
 }
