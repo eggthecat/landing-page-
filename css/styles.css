@@ -2,44 +2,39 @@ body {
   background-color: #ECEDF9;
 }
 
-/* The sidebar menu */
-.sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: #ECEDF9; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
 }
 
-/* The navigation menu links */
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #E90FE6;
+/* Navbar links */
+#navbar a {
+  float: left;
   display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
 }
 
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-  color: #72E62B;
+/* Page content */
+.content {
+  padding: 16px;
 }
 
-/* Style page content */
-.main {
-  margin-left: 160px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
 }
+
 
 #indexTopJumbotron {
   text-align: center;
@@ -49,12 +44,19 @@ body {
   height: ;
 }
 
+#aboutRow{
+  display: flex;
+}
+
+#aboutCol {
+  flex: 50%;
+}
+
 #aboutYoungerDaysJumbotron {
   text-align: center;
 }
 
 #aboutYoungerDaysPicture {
-  float: right;
   width: 300px;
   height: 250px;
 }
