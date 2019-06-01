@@ -2,9 +2,16 @@ body {
   background-color: #ECEDF9;
 }
 
+#portfolioTopImage{
+  height: 1080px;
+  width: 2048px;
+}
 #navbar /* Style the navbar */ {
   overflow: hidden;
   background-color: #333;
+  margin: 0px;
+  padding: 0px;
+
 }
 
 #navbar a   /* Navbar links */ {
