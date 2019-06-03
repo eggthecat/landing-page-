@@ -1,0 +1,26 @@
+#aboutRow{
+  display: flex;
+}
+
+#aboutCol {
+  flex: 50%;
+}
+
+#aboutYoungerDaysJumbotron {
+  text-align: center;
+}
+
+#aboutYoungerDaysPicture {
+  width: 300px;
+  height: 250px;
+}
+
+#aboutTwentyJumbotron {
+  text-align: center;
+}
+
+#aboutTwentyPicture {
+  float: left;
+  width: 300px;
+  height: 250px;
+}
