@@ -14,13 +14,11 @@
   width: 50%;
 }
 
-/* Make the image responsive */
 #portfolioImgImage img {
   width: 100%;
   height: auto;
 }
 
-/* Style the button and place it in the middle of the container/image */
 #portfolioImgButton{
   position: absolute;
   top: 50%;
@@ -39,3 +37,6 @@
 #portfolioImgButton:hover {
   background-color: black;
 }
+
+
+checking

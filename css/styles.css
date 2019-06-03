@@ -2,19 +2,14 @@ body {
   background-color: #ECEDF9;
 }
 
-/* #portfolioTopImage{
-  height: 1080px;
-  width: 2048px; */
-}
-#navbar /* Style the navbar */ {
+#navbar {
   overflow: hidden;
   background-color: #ECEDF9;
   margin: 0px;
   padding: 0px;
-
 }
 
-#navbar a   /* Navbar links */ {
+#navbar a  {
   float: left;
   display: block;
   color: red;
@@ -23,7 +18,6 @@ body {
   text-decoration: none;
 }
 
-/* Page content */
 .content {
   padding: 16px;
 }
@@ -36,40 +30,12 @@ body {
   height: ;
 }
 
-/* #aboutRow{
-  display: flex;
-}
-
-#aboutCol {
-  flex: 50%;
-}
-
-#aboutYoungerDaysJumbotron {
-  text-align: center;
-}
-
-#aboutYoungerDaysPicture {
-  width: 300px;
-  height: 250px;
-}
-
-#aboutTwentyJumbotron {
-  text-align: center;
-}
-
-#aboutTwentyPicture {
-  float: left;
-  width: 300px;
-  height: 250px;
-} */
-
 .row {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
 .column {
   flex: 25%;
   max-width: 25%;
@@ -82,19 +48,12 @@ body {
   width: 100%;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
     flex: 50%;
     max-width: 50%;
   }
 }
-
-/* #portfolioContainer {
-  position: relative;
-  width: 100%;
-  max-width: 400px;
-} */
 
 .container img {
   width: 100%;
@@ -121,7 +80,6 @@ body {
   background-color: black;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
     flex: 100%;
@@ -129,34 +87,4 @@ body {
   }
 }
 
-/* Container needed to position the button. Adjust the width as needed */
-/* #portfolioImgContainer {
-  position: relative;
-  width: 50%;
-}
-
-/* Make the image responsive */
-#portfolioImgImage img {
-  width: 100%;
-  height: auto;
-} */
-
-/* Style the button and place it in the middle of the container/image */
-/* #portfolioImgButton{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-#portfolioImgButton:hover {
-  background-color: black;
-} */
+testing
